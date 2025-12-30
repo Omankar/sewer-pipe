@@ -17,5 +17,12 @@ public class ClickableObject : MonoBehaviour
 #else
         Debug.Log("Clicked in Editor: " + objName);
 #endif
+
+        // NEW BIT: tell the highlight script to do its sparkly thing
+        var highlight = GetComponent<HighlightToggle>();
+        if (highlight != null)
+        {
+            highlight.ToggleHighlight();
+        }
     }
 }

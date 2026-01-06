@@ -18,11 +18,30 @@ public class ClickableObject : MonoBehaviour
         Debug.Log("Clicked in Editor: " + objName);
 #endif
 
-        // NEW BIT: tell the highlight script to do its sparkly thing
         var highlight = GetComponent<HighlightToggle>();
         if (highlight != null)
         {
-            highlight.ToggleHighlight();
+            highlight.ToggleExclusiveHighlight();
+        }
+
+        float distance = Vector3.Distance(
+            PlayerSpawnTracker.SpawnPosition,
+            transform.position
+        );
+
+        Debug.Log($"Defect '{objName}' distance from spawn: {distance} m");
+
+        if (DefectChartManager.Instance != null)
+        {
+            DefectChartManager.Instance.ShowDefectDistance(objName, distance);
+        }
+    }
+
+    public void RightClick()
+    {
+        if (DefectSelectionManager.Instance != null)
+        {
+            DefectSelectionManager.Instance.SelectDefect(transform);
         }
     }
 }

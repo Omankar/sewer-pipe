@@ -2,15 +2,20 @@ using UnityEngine;
 
 public class HighlightToggle : MonoBehaviour
 {
+    private static HighlightToggle currentlyHighlighted;
+
     private Renderer rend;
     private Material mat;
     private Color originalColor;
     private Color originalEmission;
-    private bool isHighlighted = false;
 
     [Header("Highlight Settings")]
     [SerializeField] private Color highlightColor = Color.yellow;
-    [SerializeField] private float emissionIntensity = 5f; // crank this up if needed
+    [SerializeField] private Color selectionColor = Color.cyan;
+    [SerializeField] private float emissionIntensity = 3f;
+
+    private bool isHighlighted = false;
+    private bool isSelected = false;
 
     void Awake()
     {
@@ -18,12 +23,9 @@ public class HighlightToggle : MonoBehaviour
 
         if (rend != null)
         {
-            // make a unique material instance
             mat = rend.material;
-
             originalColor = mat.color;
 
-            // store the original emission
             if (mat.IsKeywordEnabled("_EMISSION"))
                 originalEmission = mat.GetColor("_EmissionColor");
             else
@@ -31,30 +33,80 @@ public class HighlightToggle : MonoBehaviour
         }
     }
 
-    public void ToggleHighlight()
+    // ---------- LEFT CLICK (YELLOW EXCLUSIVE) ----------
+    public void ToggleExclusiveHighlight()
+    {
+        if (currentlyHighlighted == this)
+        {
+            DeactivateHighlight();
+            currentlyHighlighted = null;
+            return;
+        }
+
+        if (currentlyHighlighted != null)
+        {
+            currentlyHighlighted.DeactivateHighlight();
+        }
+
+        ActivateHighlight();
+        currentlyHighlighted = this;
+    }
+
+    private void ActivateHighlight()
     {
         if (mat == null) return;
 
-        isHighlighted = !isHighlighted;
+        isHighlighted = true;
 
-        if (isHighlighted)
-        {
-            mat.color = highlightColor;
+        mat.color = highlightColor;
+        mat.EnableKeyword("_EMISSION");
+        mat.SetColor("_EmissionColor", highlightColor * emissionIntensity);
+    }
 
-            // enable emission
-            mat.EnableKeyword("_EMISSION");
+    private void DeactivateHighlight()
+    {
+        if (mat == null) return;
 
-            mat.SetColor("_EmissionColor", highlightColor * emissionIntensity);
-        }
-        else
+        isHighlighted = false;
+
+        // Restore ONLY if not selected
+        if (!isSelected)
         {
             mat.color = originalColor;
-
-            // restore emission
             mat.SetColor("_EmissionColor", originalEmission);
 
             if (originalEmission == Color.black)
                 mat.DisableKeyword("_EMISSION");
+        }
+    }
+
+    // ---------- RIGHT CLICK (BLUE SELECTION) ----------
+    public void SetSelected(bool value)
+    {
+        isSelected = value;
+
+        if (isSelected)
+        {
+            mat.color = selectionColor;
+            mat.EnableKeyword("_EMISSION");
+            mat.SetColor("_EmissionColor", selectionColor * emissionIntensity);
+        }
+        else
+        {
+            // If yellow highlight is active, keep it
+            if (isHighlighted)
+            {
+                mat.color = highlightColor;
+                mat.SetColor("_EmissionColor", highlightColor * emissionIntensity);
+            }
+            else
+            {
+                mat.color = originalColor;
+                mat.SetColor("_EmissionColor", originalEmission);
+
+                if (originalEmission == Color.black)
+                    mat.DisableKeyword("_EMISSION");
+            }
         }
     }
 }

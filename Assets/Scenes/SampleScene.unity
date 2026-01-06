@@ -200,6 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &273251033 stripped
 GameObject:
@@ -228,59 +229,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3703368155229703598, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
---- !u!114 &273251036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273251033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates: []
---- !u!114 &273251040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273251033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aa16cebce716b4e9b470c06b738f9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
-  emissionIntensity: 5
---- !u!114 &273251041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273251033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee1b035e8f5a0364687c8efab5d3b1e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickableObject
---- !u!114 &273251042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273251033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aa16cebce716b4e9b470c06b738f9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
-  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  emissionIntensity: 5
 --- !u!1 &301817712
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &410087039
 GameObject:
@@ -713,6 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &465700058
 GameObject:
@@ -897,6 +847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &487095035 stripped
 GameObject:
@@ -979,6 +930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &497991746
 GameObject:
@@ -1188,6 +1140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &552476186 stripped
 GameObject:
@@ -1216,61 +1169,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
---- !u!114 &552476189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552476186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 552476186}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &552476192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552476186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee1b035e8f5a0364687c8efab5d3b1e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickableObject
---- !u!114 &552476196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552476186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aa16cebce716b4e9b470c06b738f9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
-  highlightColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
-  emissionIntensity: 5
 --- !u!1 &579402033
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,6 +1390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &665438154 stripped
 GameObject:
@@ -1520,61 +1419,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8691780276856062721, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
---- !u!114 &665438157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665438154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 665438154}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &665438160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665438154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee1b035e8f5a0364687c8efab5d3b1e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickableObject
---- !u!114 &665438164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665438154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aa16cebce716b4e9b470c06b738f9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
-  emissionIntensity: 5
 --- !u!1 &702709665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3693447268994368513, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
@@ -1628,6 +1472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &832575517
 GameObject:
@@ -1736,6 +1581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &964505354 stripped
 GameObject:
@@ -1818,6 +1664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &999022266 stripped
 GameObject:
@@ -1900,6 +1747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &1166590128 stripped
 GameObject:
@@ -1982,6 +1830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &1167622848 stripped
 GameObject:
@@ -2064,6 +1913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1001 &1223421536
 PrefabInstance:
@@ -2073,6 +1923,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 453084650579209848, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: SprintSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 453084650579209848, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: GroundLayers.m_Bits
       value: 1
@@ -2091,7 +1945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937451010987979973, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.0899
+      value: 9.029
       objectReference: {fileID: 0}
     - target: {fileID: 2862278905927072855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2099,7 +1953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2862278905927072855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.032407
+      value: 9.971507
       objectReference: {fileID: 0}
     - target: {fileID: 2862278905927072855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2111,7 +1965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5126527961139664760, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.032407
+      value: 9.971507
       objectReference: {fileID: 0}
     - target: {fileID: 5126527961139664760, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2147,7 +2001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 310.51
+      value: 306.51
       objectReference: {fileID: 0}
     - target: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2155,7 +2009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 289.78
+      value: 290.27
       objectReference: {fileID: 0}
     - target: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2195,12 +2049,21 @@ PrefabInstance:
     - {fileID: 7400677500434752734, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7094977340588366727, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1771177343}
     - targetCorrespondingSourceObject: {fileID: 5126527961139664765, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1502378897}
     - targetCorrespondingSourceObject: {fileID: 5126527961139664765, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1502378902}
+    - targetCorrespondingSourceObject: {fileID: 453084650579209855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1313581584}
+    - targetCorrespondingSourceObject: {fileID: 453084650579209855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1313581585}
   m_SourcePrefab: {fileID: 100100000, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
 --- !u!1 &1224729388 stripped
 GameObject:
@@ -2282,8 +2145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33aa16cebce716b4e9b470c06b738f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
-  emissionIntensity: 5
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
+  emissionIntensity: 3
 --- !u!1 &1227480376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9050863283606162536, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
@@ -2311,49 +2175,35 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8007647902812128986, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
---- !u!114 &1227480379
+--- !u!1 &1313581577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 453084650579209855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+  m_PrefabInstance: {fileID: 1223421536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1313581584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227480376}
+  m_GameObject: {fileID: 1313581577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5545e57ce50be344298b3a38187fac10, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1227480376}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1227480383
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerReset
+--- !u!114 &1313581585
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227480376}
+  m_GameObject: {fileID: 1313581577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aa16cebce716b4e9b470c06b738f9d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6614754311dd2764c90a20a5abb0329e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
-  emissionIntensity: 5
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawnTracker
 --- !u!1001 &1322133235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2414,6 +2264,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: TF.003Outer
       objectReference: {fileID: 0}
+    - target: {fileID: -5160341333209028348, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 59.124275
+      objectReference: {fileID: 0}
+    - target: {fileID: -5160341333209028348, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 59.996277
+      objectReference: {fileID: 0}
+    - target: {fileID: -5160341333209028348, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00037014
+      objectReference: {fileID: 0}
     - target: {fileID: -2899119592108448967, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 105.393
@@ -2454,6 +2316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CylinderInner
       objectReference: {fileID: 0}
+    - target: {fileID: 5369260298453019903, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 15d65a000e687714a83e7924e5b3f306, type: 2}
     - target: {fileID: 5670909890852677394, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 101.280014
@@ -2564,52 +2430,16 @@ PrefabInstance:
       addedObject: {fileID: 1545468825}
     - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 552476196}
-    - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 552476189}
-    - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 552476188}
-    - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 552476192}
-    - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 665438157}
-    - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 665438160}
     - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 665438156}
-    - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 665438164}
-    - targetCorrespondingSourceObject: {fileID: 9050863283606162536, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1227480379}
     - targetCorrespondingSourceObject: {fileID: 9050863283606162536, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1227480378}
-    - targetCorrespondingSourceObject: {fileID: 9050863283606162536, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1227480383}
-    - targetCorrespondingSourceObject: {fileID: 983368220612306301, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273251036}
     - targetCorrespondingSourceObject: {fileID: 983368220612306301, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 273251035}
-    - targetCorrespondingSourceObject: {fileID: 983368220612306301, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273251040}
-    - targetCorrespondingSourceObject: {fileID: 983368220612306301, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273251041}
-    - targetCorrespondingSourceObject: {fileID: 983368220612306301, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273251042}
     - targetCorrespondingSourceObject: {fileID: -722201377240725032, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1976698074}
@@ -2687,13 +2517,13 @@ PrefabInstance:
       addedObject: {fileID: 1224729391}
     - targetCorrespondingSourceObject: {fileID: 3613524201894335185, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1224729398}
+    - targetCorrespondingSourceObject: {fileID: 3613524201894335185, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1224729390}
     - targetCorrespondingSourceObject: {fileID: 3613524201894335185, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1224729394}
-    - targetCorrespondingSourceObject: {fileID: 3613524201894335185, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1224729398}
     - targetCorrespondingSourceObject: {fileID: 6052539783984581801, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1926927780}
@@ -2845,6 +2675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &1502378892 stripped
 GameObject:
@@ -3057,6 +2888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &1569235262
 GameObject:
@@ -3102,6 +2934,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1771177341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7094977340588366727, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+  m_PrefabInstance: {fileID: 1223421536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1771177343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771177341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a5691b5088aab4488b92ea1bf11019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefectSelectionManager
 --- !u!1 &1926927777 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6052539783984581801, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
@@ -3167,6 +3016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &1976698071 stripped
 GameObject:
@@ -3249,6 +3099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1 &1996127373 stripped
 GameObject:
@@ -3331,6 +3182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
   highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  selectionColor: {r: 0, g: 1, b: 1, a: 1}
   emissionIntensity: 5
 --- !u!1001 &2089526545
 PrefabInstance:
@@ -3408,10 +3260,7 @@ GameObject:
   - component: {fileID: 2095170902}
   - component: {fileID: 2095170908}
   - component: {fileID: 2095170907}
-  - component: {fileID: 2095170906}
-  - component: {fileID: 2095170905}
   - component: {fileID: 2095170904}
-  - component: {fileID: 2095170903}
   m_Layer: 0
   m_Name: Cylinder.003
   m_TagString: Untagged
@@ -3434,20 +3283,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 850399019}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: -27.206}
---- !u!114 &2095170903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095170901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aa16cebce716b4e9b470c06b738f9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HighlightToggle
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
-  emissionIntensity: 5
 --- !u!64 &2095170904
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3470,47 +3305,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8691780276856062721, guid: d237c6046fefe2c4b85858756062e3ab, type: 3}
---- !u!114 &2095170905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095170901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee1b035e8f5a0364687c8efab5d3b1e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickableObject
---- !u!114 &2095170906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095170901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2095170901}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!23 &2095170907
 MeshRenderer:
   m_ObjectHideFlags: 0
